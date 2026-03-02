@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-service
+  title: Test Service
+  description: Test service for updating entities page 
+  annotations:
+    circleci.com/project-slug: butbucket/ninjarmm/kaizen
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/pe-dpe
