@@ -8,7 +8,8 @@ metadata:
     circleci.com/project-slug: butbucket/ninjarmm/kaizen
     jira.com/project-key: DPE
     pagerduty.com/service-id: PA36JR1
-    "backstage.io/kubernetes-label-selector": "app=checkout-service"
+    backstage.io/kubernetes-label-selector: "app.kubernetes.io/name=checkout-service"
+    backstage.io/kubernetes-namespace: kaizen-prod
 spec:
   type: service
   lifecycle: production
