@@ -7,6 +7,7 @@ metadata:
   annotations:
     circleci.com/project-slug: butbucket/ninjarmm/kaizen
     jira.com/project-key: DPE
+    pagerduty.com/service-id: PA36JR1
 spec:
   type: service
   lifecycle: production
