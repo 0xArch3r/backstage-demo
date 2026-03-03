@@ -6,7 +6,7 @@ metadata:
   description: Test service for updating entities page
   annotations:
     circleci.com/project-slug: butbucket/ninjarmm/kaizen
-    jira.com/project-key: DPE
+    jira.com/project-key: DPE,KS
     pagerduty.com/service-id: PA36JR1
     backstage.io/kubernetes-label-selector: "app.kubernetes.io/name=checkout-service"
     backstage.io/kubernetes-namespace: kaizen-prod
