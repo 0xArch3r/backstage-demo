@@ -8,6 +8,7 @@ metadata:
     circleci.com/project-slug: butbucket/ninjarmm/kaizen
     jira.com/project-key: DPE
     pagerduty.com/service-id: PA36JR1
+    backstage.io/kubernetes-id: kaizen-production
 spec:
   type: service
   lifecycle: production
