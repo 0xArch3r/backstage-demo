@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: test-service
   title: Test Service
-  description: Test service for updating entities page
+  description: Test service for updating entities page this is updateed
   annotations:
     circleci.com/project-slug: butbucket/ninjarmm/kaizen
     jira.com/project-key: DPE,KS
