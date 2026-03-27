@@ -10,6 +10,7 @@ metadata:
     pagerduty.com/service-id: PA36JR1
     backstage.io/kubernetes-label-selector: "app.kubernetes.io/name=checkout-service"
     backstage.io/kubernetes-namespace: kaizen-prod
+    aws.amazon.com/amazon-ecr-arn: arn:aws:ecr:us-east-1:589470911209:repository/kaizen/checkout-service
 spec:
   type: service
   lifecycle: production
